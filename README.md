@@ -39,9 +39,11 @@ The application provides a GUI menu to visualize the following metrics:
 * **Database:** MySQL (via `mysql-connector-python`)
 
 ## 📸 Screenshots
+* Main Menu
 ![Main Menu](screenshots/main_menu.png)
 
-![Seasonality Chart](/screenshots/booking_trends.png)
+* Booking Trends
+![Booking trends Chart](/screenshots/booking_trends.png)
 
 ## 🚀 Installation & Setup
 
