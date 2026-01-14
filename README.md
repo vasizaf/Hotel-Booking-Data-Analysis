@@ -97,4 +97,4 @@ mydb = mysql.connector.connect(
 * Computer Engineering and Informatics Department (CEID), University of Patras
 
 ---
-*Note: This project demonstrates the ability to build data-driven GUI applications and manage SQL pipelines via Python.*
+*Note: This project is for educational purposes and demonstrates the ability to build data-driven GUI applications and manage SQL pipelines via Python.*
