@@ -55,3 +55,29 @@ Ensure you have Python installed along with a local MySQL server.
 ```bash
 pip install pandas matplotlib mysql-connector-python
 ```
+### 2. Database Configuration
+**Crucial Step:** Before running the app, you must initialize the database structure.
+
+1.  **Create the Database:**
+    Open your MySQL Workbench or Command Line and run:
+    ```sql
+    CREATE DATABASE Hotel_booking_analysis;
+    ```
+2.  **Import the Schema:**
+    A `Hotel_booking_analysis.sql` file is provided in this repository. It contains the code to create all necessary tables (`basic_statistics`, `monthly_distribution`, `booking_trends`, etc.).
+    * **Via MySQL Workbench:** Go to `Server` -> `Data Import` -> Select `Hotel_booking_analysis.sql` -> Target Schema: `Hotel_booking_analysis`.
+    * **Via Command Line:**
+        ```bash
+        mysql -u root -p Hotel_booking_analysis < Hotel_booking_analysis.sql
+        ```
+
+### 3. Connection Setup
+Open `main.py` and update the database credentials to match your local setup:
+```python
+mydb = mysql.connector.connect(
+    host='localhost',
+    user='root',       # Change to your MySQL username
+    password='root',   # Change to your MySQL password
+    database='Hotel_booking_analysis'
+)
+```
