@@ -3,7 +3,7 @@
 > A full-stack desktop application that analyzes hotel booking data, visualizes business KPIs and persists results into a MySQL database.
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Python](https://img.shields.io/badge/Language-Python)
+![Python](https://img.shields.io/badge/Language-Python-3776AB)
 ![Analysis](https://img.shields.io/badge/Library-Pandas%20%7C%20Matplotlib-blue)
 ![GUI](https://img.shields.io/badge/Interface-Tkinter-green)
 ![Database](https://img.shields.io/badge/DB-MySQL-orange)
