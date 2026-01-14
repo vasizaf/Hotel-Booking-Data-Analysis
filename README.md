@@ -81,3 +81,21 @@ mydb = mysql.connector.connect(
     database='Hotel_booking_analysis'
 )
 ```
+
+### 4. Running the App
+1.  **Download the Data:**
+    Ensure the `hotel_booking.csv` dataset is present in the **root directory** (the same folder as your script).
+2.  **Launch the Dashboard:**
+    ```bash
+    python main.py
+    ```
+3.  **Interact:**
+    A GUI window will appear. Click on the menu buttons (e.g., *"Display basic statistics"*) to visualize the data. The application will automatically Insert/Update the SQL tables with the latest results upon every calculation.
+
+## 👥 Author
+**Vasilis Zafeiris**
+* Computer Engineering and Informatics Department (CEID)
+* University of Patras
+
+---
+*Note: This project demonstrates the ability to build data-driven GUI applications and manage SQL pipelines via Python.*
