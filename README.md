@@ -2,10 +2,11 @@
 
 > A full-stack desktop application that analyzes hotel booking data, visualizes business KPIs and persists results into a MySQL database.
 
-![Python](https://img.shields.io/badge/Language-Python%203-3776AB)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Python](https://img.shields.io/badge/Language-Python)
+![Analysis](https://img.shields.io/badge/Library-Pandas%20%7C%20Matplotlib-blue)
 ![GUI](https://img.shields.io/badge/Interface-Tkinter-green)
 ![Database](https://img.shields.io/badge/DB-MySQL-orange)
-![Analysis](https://img.shields.io/badge/Library-Pandas%20%7C%20Matplotlib-blue)
 
 ## 📊 Project Overview
 This project is an end-to-end data analysis tool developed to derive actionable insights from a "Hotel Booking" dataset (119k+ records). 
