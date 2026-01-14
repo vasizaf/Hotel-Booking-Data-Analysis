@@ -94,8 +94,7 @@ mydb = mysql.connector.connect(
 
 ## 👥 Author
 **Vasilis Zafeiris**
-* Computer Engineering and Informatics Department (CEID)
-* University of Patras
+* Computer Engineering and Informatics Department (CEID), University of Patras
 
 ---
 *Note: This project demonstrates the ability to build data-driven GUI applications and manage SQL pipelines via Python.*
