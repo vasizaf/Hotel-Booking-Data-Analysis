@@ -93,7 +93,7 @@ mydb = mysql.connector.connect(
     A GUI window will appear. Click on the menu buttons (e.g., *"Display basic statistics"*) to visualize the data. The application will automatically Insert/Update the SQL tables with the latest results upon every calculation.
 
 ## 👥 Author
-**Vasilis Zafeiris**
+**Vasileios Zafeiris**
 * Computer Engineering and Informatics Department (CEID), University of Patras
 
 ---
