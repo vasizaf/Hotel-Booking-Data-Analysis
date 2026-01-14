@@ -40,9 +40,11 @@ The application provides a GUI menu to visualize the following metrics:
 
 ## 📸 Screenshots
 * Main Menu
+
 ![Main Menu](screenshots/main_menu.png)
 
 * Booking Trends
+
 ![Booking trends Chart](/screenshots/booking_trends.png)
 
 ## 🚀 Installation & Setup
